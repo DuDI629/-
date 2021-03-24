@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>面试题</title>
+        <link rel="stylesheet" type="text/css" src="./css/index.css">
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/index.js"></script>
+	</head>
+	<style type="text/css">
+    .body{
+        width: 50%;
+        margin:0 auto;
+    }
+    .search{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    .search input{
+        width: 220px;
+        height: 30px;
+       font-size: 15px;
+       margin-left: 10px;
+
+    }
+    .search  button{
+        width: 70px;
+        height: 38px;
+        border: 0px;
+        margin-left: 10px;
+        border-radius: 4px;
+        background-color: cornflowerblue;
+        color: #ffff;
+    }
+    .Add_input{
+          display:flex;
+          flex-wrap: wrap;
+    }
+    .Add_input input{
+        width: 220px;
+        height: 30px;
+       font-size: 15px;
+       margin-left: 10px;
+       margin-top: 10px;
+    }
+    .Add_input button{
+        width: 70px;
+        height: 38px;
+        border: 0px;
+        margin-left: 10px;
+        border-radius: 4px;
+        background-color: rgb(33, 182, 65);
+        color: #ffff;
+        margin-top: 10px;
+    }
+
+    .table{
+        width: 100%;
+        height:auto;
+        border:1px solid #000;
+        margin-top: 10px;
+        padding:10px;
+    }
+    .table table,tr{
+        width: 100%;
+        height: 38px;
+    }
+    .table table td{
+       text-align: center;
+    }
+    .table table td input{
+       border: 0px;
+       height: 25px;
+       width: 50px;
+       font-size: 15px;
+       background-color: #fff;
+    }
+    .table tr:first-child{
+        background-color: rgb(96, 130, 221);
+        color: #fff;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+    .btn button{
+        width: 50px;
+        height: 30px;
+        border: 0px;
+        margin-left: 10px;
+        border-radius: 4px;
+        color: #ffff;
+        margin-top: 10px;
+        font-size: 12px;
+        
+
+    }
+    .btn1{
+        background-color: red;
+    }
+    .btn2{
+        background-color: rgb(88, 135, 238);
+    }
+    .btn3{
+        background-color: rgb(51, 211, 86);
+    }
+    .btn4{
+        background-color: red;
+    }
+
+	</style>
+	<body>
+		<div class="body">
+            <div class="search">
+                <input type="text" placeholder="请输入姓名" value="" id="searchname">
+                <button id="search"  >搜索</button>
+            </div>
+            <div class="Add_input">
+                <input type="text" value="" placeholder="请输入名字" id="name" >
+                <input type="text" placeholder="请输入你的性别" id="sex" >
+                <input type="number" placeholder="情输入年龄" id="age" >
+                <button id="Addtable">新增</button>
+            </div>
+            <div class="table" >
+                <table id="table">
+                    
+                </table>
+            </div>
+        </div>
+      
+	</body>
+	<script type="text/javascript">
+
+		
+	</script>
+</html>
